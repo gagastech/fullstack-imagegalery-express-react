@@ -6,6 +6,7 @@ import "react-toastify/dist/ReactToastify.css";
 import "react-confirm-alert/src/react-confirm-alert.css";
 import axios from "axios";
 
+# fe
 axios.defaults.headers.post["Content-Type"] =
   "application/x-www-form-urlencoded";
 axios.defaults.baseURL = import.meta.env.VITE_API_URL;
