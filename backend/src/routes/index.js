@@ -2,6 +2,7 @@ import { Router } from "express";
 import productRouter from "./product.route.js";
 const router = Router();
 
+// route
 router.use("/api", productRouter);
 router.use("*", (req, res) => {
   res.status(404).json({ message: "not found" });
